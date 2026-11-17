@@ -1,0 +1,200 @@
+2025-03-01 00:00:00 INFO user 3658 logged in
+2025-03-01 00:00:00 INFO job 1425 scheduled
+2025-03-01 00:00:00 DEBUG cache lookup key=3812
+2025-03-01 00:00:00 INFO job 8929 scheduled
+2025-03-01 00:00:01 INFO user 2616 logged in
+2025-03-01 00:00:02 DEBUG cache lookup key=5515
+2025-03-01 00:00:03 DEBUG entering handler id=9892
+2025-03-01 00:00:03 INFO job 2046 scheduled
+2025-03-01 00:00:04 DEBUG entering handler id=5926
+2025-03-01 00:00:06 DEBUG query plan cached (3734 rows)
+2025-03-01 00:00:06 WARN slow query took 6228ms (id=4555)
+2025-03-01 00:00:07 DEBUG entering handler id=3433
+2025-03-01 00:00:09 ERROR unhandled exception in worker 1170
+2025-03-01 00:00:09 INFO user 2678 logged in
+2025-03-01 00:00:10 ERROR unhandled exception in worker 9126
+2025-03-01 00:00:11 WARN slow query took 3753ms (id=526)
+2025-03-01 00:00:12 DEBUG cache lookup key=9293
+2025-03-01 00:00:13 DEBUG entering handler id=6483
+2025-03-01 00:00:15 INFO request 2288 completed in 4041ms
+2025-03-01 00:00:17 DEBUG query plan cached (7020 rows)
+2025-03-01 00:00:18 INFO user 8349 logged in
+2025-03-01 00:00:18 WARN slow query took 2622ms (id=6917)
+2025-03-01 00:00:19 INFO request 8670 completed in 4120ms
+2025-03-01 00:00:19 INFO user 8798 logged in
+2025-03-01 00:00:21 INFO request 7124 completed in 2592ms
+2025-03-01 00:00:23 WARN retrying connection attempt 8202
+2025-03-01 00:00:25 WARN disk usage at 4890%
+2025-03-01 00:00:27 INFO user 6127 logged in
+2025-03-01 00:00:29 ERROR unhandled exception in worker 10
+2025-03-01 00:00:30 DEBUG entering handler id=5039
+2025-03-01 00:00:30 WARN slow query took 1404ms (id=7963)
+2025-03-01 00:00:32 INFO user 7788 logged in
+2025-03-01 00:00:32 DEBUG query plan cached (6933 rows)
+2025-03-01 00:00:34 INFO job 3296 scheduled
+2025-03-01 00:00:35 FATAL database connection lost (node 7178)
+2025-03-01 00:00:36 DEBUG cache lookup key=1050
+2025-03-01 00:00:38 INFO job 3609 scheduled
+this line is not a log entry at all
+2025-03-01 00:00:38 WARN slow query took 8424ms (id=3900)
+2025-03-01 00:00:39 DEBUG cache lookup key=9356
+2025-03-01 00:00:39 INFO request 3120 completed in 1546ms
+2025-03-01 00:00:40 INFO request 7652 completed in 888ms
+2025-03-01 00:00:42 DEBUG entering handler id=5560
+2025-03-01 00:00:42 DEBUG cache lookup key=8787
+2025-03-01 00:00:43 DEBUG entering handler id=4093
+2025-03-01 00:00:43 INFO job 1605 scheduled
+2025-03-01 00:00:45 WARN slow query took 3873ms (id=2725)
+2025-03-01 00:00:46 DEBUG entering handler id=961
+2025-03-01 00:00:46 ERROR timeout calling payment service (id=7455)
+2025-03-01 00:00:48 ERROR unhandled exception in worker 7974
+2025-03-01 00:00:49 DEBUG cache lookup key=9490
+2025-03-01 00:00:49 INFO user 822 logged in
+2025-03-01 00:00:51 WARN disk usage at 2580%
+2025-03-01 00:00:53 DEBUG cache lookup key=1123
+2025-03-01 00:00:55 WARN retrying connection attempt 1965
+2025-03-01 00:00:57 DEBUG query plan cached (652 rows)
+2025-03-01 00:00:58 INFO job 8566 scheduled
+2025-03-01 00:00:59 DEBUG query plan cached (5148 rows)
+2025-03-01 00:01:00 DEBUG query plan cached (4916 rows)
+2025-03-01 00:01:00 DEBUG query plan cached (9225 rows)
+2025-03-01 00:01:00 INFO job 4346 scheduled
+2025-03-01 00:01:01 WARN slow query took 6055ms (id=4670)
+2025-03-01 00:01:03 INFO job 8667 scheduled
+2025-03-01T12:00:00 ERROR wrong timestamp separator
+2025-03-01 00:01:03 ERROR failed to open file /var/data/4334.dat
+2025-03-01 00:01:03 INFO user 4463 logged in
+2025-03-01 00:01:03 INFO user 4326 logged in
+2025-03-01 00:01:04 WARN slow query took 1513ms (id=6940)
+2025-03-01 00:01:04 DEBUG cache lookup key=4292
+2025-03-01 00:01:05 INFO request 9190 completed in 159ms
+2025-03-01 00:01:07 WARN disk usage at 591%
+2025-03-01 00:01:09 INFO request 2089 completed in 686ms
+2025-03-01 00:01:09 WARN slow query took 4089ms (id=1685)
+2025-03-01 00:01:11 WARN retrying connection attempt 2533
+2025-03-01 00:01:11 WARN slow query took 6756ms (id=407)
+2025-03-01 00:01:12 INFO request 4066 completed in 4372ms
+2025-03-01 00:01:14 DEBUG cache lookup key=7712
+2025-03-01 00:01:15 INFO user 3653 logged in
+2025-03-01 12:00:00 ERROR
+2025-03-01 00:01:16 WARN retrying connection attempt 5754
+2025-03-01 00:01:17 INFO job 5426 scheduled
+2025-03-01 00:01:17 WARN retrying connection attempt 2926
+2025-03-01 00:01:18 DEBUG query plan cached (7120 rows)
+2025-03-01 00:01:19 INFO job 1895 scheduled
+2025-03-01 00:01:21 DEBUG cache lookup key=7145
+2025-03-01 12:00:00 ERROR
+2025-03-01 00:01:21 ERROR timeout calling payment service (id=5144)
+2025-03-01 00:01:21 INFO request 8309 completed in 5068ms
+2025-03-01 00:01:22 INFO request 9084 completed in 2086ms
+2025-03-01 00:01:24 ERROR unhandled exception in worker 2852
+2025-03-01 00:01:25 INFO user 4979 logged in
+2025-03-01 00:01:26 INFO job 5280 scheduled
+2025-03-01 00:01:27 INFO job 7753 scheduled
+2025-03-01 00:01:29 DEBUG cache lookup key=4650
+2025-03-01 00:01:31 INFO user 3849 logged in
+2025-03-01 00:01:31 WARN slow query took 401ms (id=758)
+2025-03-01 00:01:32 INFO user 7462 logged in
+2025-03-01 00:01:34 INFO job 6292 scheduled
+2025-03-01 00:01:34 DEBUG query plan cached (91 rows)
+2025-03-01 00:01:34 INFO user 2882 logged in
+2025-03-01 00:01:36 INFO user 9133 logged in
+2025-03-01 00:01:36 INFO request 8703 completed in 9158ms
+2025-03-01 00:01:37 INFO job 8271 scheduled
+2025-03-01 00:01:39 INFO user 7778 logged in
+2025-03-01 00:01:39 WARN retrying connection attempt 8541
+2025-03-01 00:01:39 DEBUG cache lookup key=4682
+2025-03-01 00:01:40 INFO job 1321 scheduled
+2025-03-01 00:01:40 INFO user 3506 logged in
+2025-03-01 00:01:41 INFO request 6813 completed in 1021ms
+2025-03-01 00:01:42 INFO job 321 scheduled
+2025-03-01 00:01:44 INFO user 5764 logged in
+2025-03-01 00:01:45 WARN retrying connection attempt 8819
+2025-03-01 00:01:47 INFO user 8000 logged in
+2025-03-01 00:01:48 INFO request 5508 completed in 6625ms
+2025-03-01 00:01:49 WARN disk usage at 8752%
+ERROR 2025-03-01 12:00:00 fields in the wrong order
+2025-03-01 00:01:51 DEBUG query plan cached (7023 rows)
+2025-03-01 00:01:52 DEBUG entering handler id=6212
+2025-03-01 00:01:53 INFO request 4559 completed in 6907ms
+2025-03-01 00:01:53 INFO job 8838 scheduled
+2025-03-01 00:01:54 DEBUG cache lookup key=660
+2025-03-01 00:01:54 DEBUG cache lookup key=2497
+2025-03-01 00:01:55 INFO job 3572 scheduled
+2025-03-01 00:01:56 INFO user 9927 logged in
+2025-03-01 00:01:58 INFO user 5097 logged in
+2025-03-01 00:01:58 ERROR unhandled exception in worker 6150
+2025-03-01 00:02:00 DEBUG query plan cached (3979 rows)
+2025-03-01 00:02:01 WARN disk usage at 1984%
+2025-03-01 00:02:03 INFO request 8729 completed in 7019ms
+2025-03-01 00:02:03 INFO request 208 completed in 6883ms
+2025-03-01 00:02:03 INFO request 7533 completed in 2507ms
+2025-03-01 00:02:05 INFO job 4426 scheduled
+2025-03-01 00:02:07 INFO request 7137 completed in 9708ms
+2025-03-01 00:02:07 WARN slow query took 4570ms (id=7386)
+2025-03-01 00:02:08 INFO job 6210 scheduled
+2025-03-01 00:02:09 WARN slow query took 7989ms (id=3476)
+2025-03-01 00:02:10 INFO job 4527 scheduled
+2025-03-01 00:02:12 ERROR failed to open file /var/data/3955.dat
+2025-03-01 00:02:13 INFO user 7801 logged in
+2025-03-01 00:02:14 INFO user 1525 logged in
+2025-03-01 00:02:15 INFO request 9529 completed in 6047ms
+2025-03-01 00:02:17 INFO job 9018 scheduled
+2025-03-01 00:02:19 INFO request 4119 completed in 3778ms
+2025-03-01 00:02:19 INFO job 8780 scheduled
+2025-03-01 00:02:21 DEBUG cache lookup key=7934
+2025-03-01 00:02:23 ERROR unhandled exception in worker 9778
+2025-03-01 00:02:23 WARN retrying connection attempt 3728
+2025-03-01 00:02:24 DEBUG query plan cached (2074 rows)
+2025-03-01 00:02:24 INFO job 2069 scheduled
+2025-03-01 00:02:25 DEBUG cache lookup key=9406
+2025-03-01 00:02:26 INFO user 842 logged in
+2025-03-01 00:02:27 DEBUG cache lookup key=6566
+2025-03-01 00:02:29 INFO user 2486 logged in
+2025-03-01 00:02:31 ERROR failed to open file /var/data/4067.dat
+2025-03-01 00:02:32 INFO job 3698 scheduled
+2025-03-01 00:02:33 INFO request 4872 completed in 9643ms
+2025-03-01 00:02:34 INFO user 9989 logged in
+2025-03-01 00:02:34 ERROR failed to open file /var/data/3458.dat
+2025-03-01 00:02:34 DEBUG cache lookup key=9044
+2025-03-01 00:02:34 INFO job 9730 scheduled
+2025-03-01 00:02:34 DEBUG query plan cached (4633 rows)
+2025-03-01 00:02:35 DEBUG cache lookup key=4335
+2025-03-01 00:02:37 INFO user 6966 logged in
+2025-03-01 00:02:37 INFO request 2331 completed in 1170ms
+2025-03-01 00:02:38 INFO job 4729 scheduled
+2025-03-01 00:02:39 INFO job 6595 scheduled
+2025-03-01 00:02:41 INFO request 1318 completed in 9799ms
+2025-03-01 00:02:42 INFO job 4103 scheduled
+2025-03-01 12:00:00 ERROR
+2025-03-01 00:02:44 INFO user 4416 logged in
+2025-03-01 00:02:44 INFO job 7246 scheduled
+2025-03-01 00:02:44 FATAL database connection lost (node 8057)
+2025-03-01 00:02:45 INFO request 5261 completed in 1714ms
+2025-03-01 00:02:46 INFO request 4723 completed in 6562ms
+2025-03-01 00:02:48 DEBUG cache lookup key=5154
+2025-03-01 00:02:48 ERROR timeout calling payment service (id=8432)
+2025-03-01 00:02:48 INFO job 7570 scheduled
+2025-03-01 00:02:48 INFO job 8168 scheduled
+2025-03-01 00:02:48 DEBUG query plan cached (2147 rows)
+2025-03-01 00:02:49 WARN retrying connection attempt 1990
+2025-03-01 12:00:00 ERROR
+2025-03-01 00:02:50 INFO job 6685 scheduled
+2025-03-01 00:02:50 INFO user 2523 logged in
+2025-03-01 00:02:52 DEBUG query plan cached (4480 rows)
+2025-03-01 00:02:53 ERROR failed to open file /var/data/7484.dat
+2025-03-01 00:02:54 DEBUG query plan cached (8328 rows)
+2025-03-01 00:02:54 WARN retrying connection attempt 6799
+2025-03-01 00:02:56 DEBUG cache lookup key=4635
+2025-03-01 00:02:58 INFO job 8023 scheduled
+2025-03-01 00:02:59 INFO request 5447 completed in 9043ms
+2025-03-01 00:03:00 INFO request 3091 completed in 3913ms
+2025-03-01 00:03:00 WARN retrying connection attempt 716
+2025-03-01 00:03:01 INFO request 6326 completed in 2493ms
+2025-03-01 00:03:01 DEBUG query plan cached (5440 rows)
+2025-03-01 00:03:02 DEBUG entering handler id=252
+2025-03-01 00:03:03 WARN slow query took 1226ms (id=7693)
+2025-03-01 00:03:04 INFO job 6513 scheduled
+2025-03-01 00:03:05 WARN disk usage at 6227%
+2025-03-01 00:03:07 INFO request 8865 completed in 589ms
+2025-03-01 00:03:07 INFO request 3728 completed in 1481ms

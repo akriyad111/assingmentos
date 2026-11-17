@@ -1,0 +1,7 @@
+2025-03-01 10:00:00 INFO service started
+2025-03-01 10:00:05 DEBUG loading config
+2025-03-01 10:01:00 WARN disk usage at 91%
+2025-03-01 10:02:00 ERROR failed to open file /tmp/x
+2025-03-01 10:02:30 ERROR timeout calling payment service
+2025-03-01 10:03:00 FATAL out of memory
+2025-03-01 10:03:10 INFO shutting down

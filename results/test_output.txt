@@ -1,0 +1,41 @@
+== 1. Normal cases ==
+  PASS  pipeline: hand-checked report (7 lines)
+  PASS  single:   hand-checked report (7 lines)
+  PASS  --levels ERROR keeps only ERROR
+  PASS  100k generated lines: pipeline == single-process
+  PASS  100k lines, --levels DEBUG,INFO
+== 2. Malformed log entries ==
+  PASS  pipeline: 5 malformed of 9 lines (garbage, bad date, blank, bad level, empty msg)
+  PASS  single:   5 malformed of 9 lines
+  PASS  generated sample with 3% malformed lines
+== 3. Boundary cases ==
+  PASS  empty file -> report with 0 lines, no hang
+  PASS  last line without trailing newline is processed
+  PASS  Windows (CRLF) line endings accepted
+  PASS  everything filtered out -> zero counts, (none) timestamps
+  PASS  file with only malformed lines
+  PASS  5000-char message rejected as malformed, next line still processed
+  PASS  embedded NUL byte -> malformed (not silently truncated)
+  PASS  TAB characters inside a message do not break the wire format
+== 4. Failure scenarios (no restart): must exit non-zero, must not hang, no partial report ==
+  PASS  stage killed (reader:1): rc=1, no hang, no report
+  PASS  stage killed (reader:10000): rc=1, no hang, no report
+  PASS  stage killed (filter:1): rc=1, no hang, no report
+  PASS  stage killed (filter:10000): rc=1, no hang, no report
+  PASS  stage killed (summarizer:1): rc=1, no hang, no report
+  PASS  stage killed (summarizer:1000): rc=1, no hang, no report
+  PASS  missing input file -> clear error, rc=1
+  PASS  invalid --levels -> usage error (rc 2)
+== 5. Restart: crash each stage at several points, result must equal a clean run ==
+  PASS  crash reader:1 -> restarted, report identical to clean run (no loss, no duplicates)
+  PASS  crash reader:5000 -> restarted, report identical to clean run (no loss, no duplicates)
+  PASS  crash reader:9999 -> restarted, report identical to clean run (no loss, no duplicates)
+  PASS  crash filter:1 -> restarted, report identical to clean run (no loss, no duplicates)
+  PASS  crash filter:5000 -> restarted, report identical to clean run (no loss, no duplicates)
+  PASS  crash filter:9999 -> restarted, report identical to clean run (no loss, no duplicates)
+  PASS  crash summarizer:1 -> restarted, report identical to clean run (no loss, no duplicates)
+  PASS  crash summarizer:700 -> restarted, report identical to clean run (no loss, no duplicates)
+  PASS  crash summarizer:1500 -> restarted, report identical to clean run (no loss, no duplicates)
+  PASS  --restart without a failure behaves like a normal run
+
+Result: 34 passed, 0 failed

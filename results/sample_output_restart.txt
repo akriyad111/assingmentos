@@ -1,0 +1,12 @@
+=== Log Summary ===
+Lines read             : 200
+  Valid records        : 193
+  Malformed (skipped)  : 7
+Records kept by filter : 48
+Records filtered out   : 145
+Counts by level (kept records):
+  WARN   : 31
+  ERROR  : 15
+  FATAL  : 2
+Earliest timestamp     : 2025-03-01 00:00:06
+Latest timestamp       : 2025-03-01 00:03:05

@@ -1,0 +1,16 @@
+reader: line 38 is malformed, skipping
+reader: line 64 is malformed, skipping
+reader: line 79 is malformed, skipping
+reader: line 86 is malformed, skipping
+reader: line 116 is malformed, skipping
+reader: line 169 is malformed, skipping
+reader: line 181 is malformed, skipping
+[fault] stage 3 killing itself after 30 messages
+[supervisor] summarizer (pid 746) killed by signal 9
+[supervisor] pipeline attempt 1 failed
+[supervisor] restart 1/3: resuming after line 65 (checkpoint: 2 malformed, 18 kept)
+reader: line 79 is malformed, skipping
+reader: line 86 is malformed, skipping
+reader: line 116 is malformed, skipping
+reader: line 169 is malformed, skipping
+reader: line 181 is malformed, skipping
